@@ -28,7 +28,7 @@ class SlacAlgorithm:
         action_shape = (3,),
         tactile_shape = (6,),
         action_repeat = 1,
-        device = 'cuda:2',
+        device = 'cuda:1',
         seed = 1,
         gamma=0.99,
         batch_size_sac=256,
